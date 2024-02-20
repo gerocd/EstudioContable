@@ -1,0 +1,84 @@
+.our-awesome-team1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 52.8px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.our-awesome-team-wrapper {
+  width: 532px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.card-team-01-parent {
+  width: 1036px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 74px;
+  min-height: 848px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+.our-awesome-team {
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 36px 60px 169px 20px;
+  box-sizing: border-box;
+  gap: 79px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 48px;
+  color: #333;
+  font-family: "Plus Jakarta Sans";
+}
+
+@media screen and (max-width: 1200px) {
+  .our-awesome-team {
+    gap: 79px;
+    padding-top: 23px;
+    padding-right: 30px;
+    padding-bottom: 110px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .our-awesome-team1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .card-team-01-parent {
+    gap: 20px 74px;
+  }
+
+  .our-awesome-team {
+    gap: 79px;
+    padding-top: 20px;
+    padding-bottom: 71px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-awesome-team1 {
+    font-size: 29px;
+    line-height: 32px;
+  }
+
+  .card-team-01-parent {
+    gap: 20px 74px;
+  }
+}

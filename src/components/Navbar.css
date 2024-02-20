@@ -1,0 +1,269 @@
+.bg {
+  height: 56px;
+  width: 56px;
+  position: relative;
+  border-radius: 200px;
+  background-color: #121212;
+  display: none;
+}
+.m {
+  position: relative;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  line-height: 153.19%;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.logo {
+  cursor: pointer;
+  border: none;
+  padding: 9px 20px 10px 17px;
+  background-color: #121212;
+  border-radius: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo:hover {
+  background-color: #454545;
+}
+.description {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 34px;
+  white-space: nowrap;
+}
+.m1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 4px;
+}
+.logo-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.getintouch {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9px 0px 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #000;
+}
+.reachcircle-logo-website-heade-icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.frame {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.state-active-child {
+  align-self: stretch;
+  height: 12px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  z-index: 1;
+}
+.home {
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.your-email {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 8px;
+}
+.instagram {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid #121212;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.social-media {
+  width: 56px;
+  height: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.state-active {
+  width: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 33px 0px 21px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 13px;
+}
+.about-us {
+  position: relative;
+  line-height: 150%;
+  white-space: nowrap;
+}
+.state-active-parent {
+  width: 257px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px 0px 0px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.services {
+  position: relative;
+  line-height: 150%;
+}
+.instagramtwitterfacebook {
+  width: 108px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.success-story {
+  position: relative;
+  line-height: 150%;
+  white-space: nowrap;
+}
+.instagramtwitterfacebook1 {
+  width: 149px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.testimonial {
+  position: relative;
+  line-height: 150%;
+}
+.instagramtwitterfacebook2 {
+  width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.our-team {
+  position: relative;
+  line-height: 150%;
+  white-space: nowrap;
+}
+.instagramtwitterfacebook3 {
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.contact {
+  position: relative;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: "Plus Jakarta Sans";
+  color: #fafafa;
+  text-align: left;
+}
+.smallnormaljustifyactive {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  background-color: #121212;
+  align-self: stretch;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.smallnormaljustifyactive:hover {
+  background-color: #454545;
+}
+.text-block {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0px 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px 9px 47px;
+  gap: 4px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: 16px;
+  color: #121212;
+  font-family: "Plus Jakarta Sans";
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding-left: 23px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .logo-parent {
+    display: none;
+  }
+
+  .getintouch {
+    width: 0px;
+  }
+}

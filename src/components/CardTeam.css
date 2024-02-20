@@ -1,0 +1,55 @@
+.image-placeholder-icon1 {
+  width: 296px;
+  height: 296px;
+  position: relative;
+  object-fit: cover;
+}
+.hi-my-name1 {
+  position: relative;
+  line-height: 150%;
+}
+.shoo-yhan-tho {
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  line-height: 31.99px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.creative-director {
+  position: relative;
+  font-size: 12px;
+  line-height: 150%;
+}
+.hi-my-name-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.card-team-03-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 3px 0px 0px;
+}
+.card-team-03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  font-family: "Plus Jakarta Sans";
+}
+
+@media screen and (max-width: 450px) {
+  .shoo-yhan-tho {
+    font-size: 19px;
+    line-height: 26px;
+  }
+}
