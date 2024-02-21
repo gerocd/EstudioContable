@@ -2,28 +2,16 @@
 const express = require('express');
 const mysql = require('mysql2');
 const bodyParser = require('body-parser');
+const cors = require('cors');
+import db from './db.cjs';
 
 const app = express();
 const PORT = 3000;
 
-// Configuración de la conexión a la base de datos
-const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'mardar346',
-  database: 'EstudioM'
-});
-
-// Conectar a la base de datos
-db.connect(err => {
-  if (err) {
-    console.error('Error al conectar a la base de datos:', err);
-  } else {
-    console.log('Conexión exitosa a la base de datos');
-  }
-});
-
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+app.use(cors());
 app.use(bodyParser.json());
 
 // Rutas
