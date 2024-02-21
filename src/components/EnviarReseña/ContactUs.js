@@ -6,32 +6,27 @@ const ContactUs = () => {
   const [Nombre, setNombre] = useState('');
   const [Apellido, setApellido] = useState('');
   const [Mensaje, setMensaje] = useState('');
+  const [enviado, setEnviado] = useState(false);
 
   const handleEnviar = async () => {
     try {
-      const response = await axios.post('http://localhost:3000/enviar-reseña', {
+      const response = await axios.post('http://localhost:3000/api/enviarmensaje', {
         Nombre,
         Apellido,
         Mensaje
       });
   
       console.log(response.data);
-      // Puedes realizar acciones adicionales después de enviar la reseña si es necesario
+
+      // Limpiar los campos después de enviar
+      setNombre('');
+      setApellido('');
+      setMensaje('');
+      setEnviado(true); // Establecer enviado a true para mostrar el mensaje de confirmación
     } catch (error) {
       console.error('Error al enviar la reseña:', error);
-  
-      // Agrega este console.log para obtener más detalles del error
-      if (error.response) {
-        // La solicitud fue hecha y el servidor respondió con un código de estado diferente de 2xx
-        console.error('Respuesta del servidor:', error.response.data);
-        console.error('Código de estado:', error.response.status);
-      } else if (error.request) {
-        // La solicitud fue hecha pero no se recibió respuesta
-        console.error('No se recibió respuesta del servidor');
-      } else {
-        // Algo ocurrió en la configuración de la solicitud que disparó un error
-        console.error('Error de configuración de la solicitud:', error.message);
-      }
+      setEnviado(false); // Si hay un error, establecer enviado a false
+      // Resto del código de manejo de errores...
     }
   };
 
@@ -49,6 +44,8 @@ const ContactUs = () => {
                     className="form2"
                     placeholder="Ingrese su nombre"
                     type="text"
+                    value={Nombre}
+                    onChange={(e) => setNombre(e.target.value)}
                   />
                 </div>
               </div>
@@ -58,6 +55,8 @@ const ContactUs = () => {
                   className="form3"
                   placeholder="Ingrese su apellido"
                   type="text"
+                  value={Apellido}
+                  onChange={(e) => setApellido(e.target.value)}
                 />
               </div>
             </div>
@@ -69,12 +68,15 @@ const ContactUs = () => {
               placeholder="Ingrese su mensaje"
               rows={6}
               cols={23}
+              value={Mensaje}
+              onChange={(e) => setMensaje(e.target.value)}
             />
           </div>
         </div>
         <button className="largenormaljustifyactive" onClick={handleEnviar}>
-        <div className="send">ENVIAR</div>
-      </button>
+          <div className="send">ENVIAR</div>
+        </button>
+        {enviado && <div className="confirmacion">Mensaje enviado correctamente</div>}
       </div>
       <div className="text-heading">
         <div className="dot-ornament3">
@@ -103,5 +105,6 @@ const ContactUs = () => {
       </div>
     </div>
   );
-  }
+}
+
 export default ContactUs;
