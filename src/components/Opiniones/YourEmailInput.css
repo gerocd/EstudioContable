@@ -1,3 +1,4 @@
+
 .what-our-customer {
   margin: 0;
   position: relative;
@@ -21,7 +22,7 @@
   height: 312px;
   position: relative;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #000000;
   box-shadow: 0px 100px 10px rgba(241, 244, 249, 0.25);
   display: none;
   max-width: 100%;
@@ -34,25 +35,32 @@
   line-height: 32px;
   display: inline-block;
   z-index: 1;
+  right: 44px;   /*  ACA MODIFICAR EL TEXTO DE LA OPINION ACAAAAAAAAAAAAAAAAAAAA*/
 }
 .shalima-hayden {
   position: relative;
   line-height: 220px;
   z-index: 1;
+  font-size: 33px;
+  right: 44px;
+  justify-content: center;
 }
 .product-designer {
-  position: relative;
-  font-size: 14px;
+  position: fixed;
+  font-size: 20px;
   line-height: 19.6px;
-  color: #4f4f4f;
+  color: #ffe601;
   z-index: 1;
+  right: 44px;
+  box-shadow: black;
 }
 .text-input {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 7px;
+  gap: 4px;
+  right: 90px;
 }
 .footer-nav-group {
   width: 195px;
@@ -66,12 +74,15 @@
 .image-placeholder-icon2 {
   width: 88px;
   height: 88px;
+  right: 80px;
   position: absolute;
   margin: 0 !important;
   top: -40px;
-  left: calc(50% - 44px);
+  left: calc(50% - 80px); /* ACA CAMBIAR PARA CENTRAR LA FOTO*/
   object-fit: cover;
   z-index: 1;
+  border-radius: 30px;
+  
 }
 .logo-minima {
   width: 816px;
@@ -173,3 +184,4 @@
     box-sizing: border-box;
   }
 }
+

@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import MinimaV from "./pages/MinimaV";
+import MFinanzas from "./pages/MFinanzas";
 
 function App() {
   const action = useNavigationType();
@@ -19,33 +19,12 @@ function App() {
   }, [action, pathname]);
 
   useEffect(() => {
-    let title = "";
-    let metaDescription = "";
-
-    switch (pathname) {
-      case "/":
-        title = "";
-        metaDescription = "";
-        break;
-    }
-
-    if (title) {
-      document.title = title;
-    }
-
-    if (metaDescription) {
-      const metaDescriptionTag = document.querySelector(
-        'head > meta[name="description"]'
-      );
-      if (metaDescriptionTag) {
-        metaDescriptionTag.content = metaDescription;
-      }
-    }
-  }, [pathname]);
+    document.title = "Mundo Finanzas";
+  }, []);
 
   return (
     <Routes>
-      <Route path="/" element={<MinimaV />} />
+      <Route path="/" element={<MFinanzas/>} />
     </Routes>
   );
 }

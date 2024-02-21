@@ -16,7 +16,7 @@ const MainContent = () => {
     window.location.href = 'https://www.facebook.com/';
   };
   return (
-    <section className="main-content">
+    <section className="main-content" id="contacto">
       <div className="footer6">
         <img className="background-icon" alt="" src="/background.svg" />
         <div className="l-o-g-o">
