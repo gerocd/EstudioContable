@@ -5,7 +5,7 @@ const SectionService = () => {
     <section className="section-service" id="servicio">
       <div className="rectangle-rectangle-copy">
         <div className="frame-map-marker">
-          <h1 className="service-we-provide">Servicio que ofrecemos</h1>
+          <h1 className="service-we-provide">Servicios que ofrecemos</h1>
           <div className="mail-your-mail" />
           <div className="phone-icon">
             <div className="we-will-help">
