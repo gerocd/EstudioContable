@@ -130,7 +130,7 @@ const FrameChildren = () => {
             <div className="group">
               <h1 className="our-success-story">Trabajos Exitosos</h1>
               <div className="frame1" />
-              <div className="develop-a-website">{`Develop a website by finding a product identity that has value and branding to become a characteristic of a company. `}</div>
+              <div className="develop-a-website">{`Este es el historial con el que contamos en nuestra empresa, dónde nuestros clientes forman parte, y nos ayudan a crecer día a día.`}</div>
             </div>
             <div className="location-map-marker">
               <div className="footer3">

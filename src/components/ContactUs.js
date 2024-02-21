@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <div className="get-in-touch-parent">
-        <h1 className="get-in-touch2">Contáctenos</h1>
+        <h1 className="get-in-touch2">Reseña</h1>
         <div className="frame-div">
           <div className="frame-parent1">
             <div className="frame-parent2">
@@ -171,7 +171,7 @@ const ContactUs = () => {
           </div>
           <div className="ohio-st-south-container">
             <p className="ohio-st-south">San Martin 4430, San Miguel de Tucumán</p>
-            <p className="ca-90280">{`CA 90280 `}</p>
+            <p className="ca-90280">{`CP 4000`}</p>
           </div>
           <img
             className="location-map-marker-4"

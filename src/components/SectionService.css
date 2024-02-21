@@ -319,6 +319,7 @@
   justify-content: flex-start;
   gap: 32px;
   max-width: 100%;
+  padding-top: 30px;
 }
 .rectangle-rectangle-copy {
   width: 489px;

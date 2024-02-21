@@ -39,7 +39,7 @@ import React from "react";
         </div>
         <div className="instagramtwitterfacebook">
           <div className="services">
-          <button onClick={() => irASeccion('servicio')}>Services</button>
+          <button onClick={() => irASeccion('servicio')}>Servicios</button>
             </div>
         </div>
         <div className="instagramtwitterfacebook1">
