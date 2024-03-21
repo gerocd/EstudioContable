@@ -9,7 +9,8 @@ const SectionService = () => {
           <div className="mail-your-mail" />
           <div className="phone-icon">
             <div className="we-will-help">
-              Proveemos una variedad de servicios relacionados con la contabilidad, finanzas y aspectos tributarios.
+              Proveemos una variedad de servicios relacionados con la
+              contabilidad, finanzas y aspectos tributarios.
             </div>
             <div className="social-media2">
               <div className="instagram-twitter-facebook">
@@ -24,13 +25,16 @@ const SectionService = () => {
                 </div>
               </div>
               <div className="form1">
-                <h3 className="performance-marketing">Contabilidad financiera</h3>
+                <h3 className="performance-marketing">
+                  Contabilidad financiera
+                </h3>
                 <div className="help-create-a-container">
                   <p className="help-create-a">
-                  Elaboración y análisis de estados financieros.
+                    Elaboración y análisis de estados financieros.
                   </p>
                   <p className="becomes-a-website">
-                  Preparación de informes contables para la toma de decisiones.
+                    Preparación de informes contables para la toma de
+                    decisiones.
                   </p>
                 </div>
               </div>
@@ -44,16 +48,14 @@ const SectionService = () => {
               src="/group-6.svg"
             />
             <div className="location-dot">
-              <h3 className="feed-management-e-commerce">
-                Asesoría Fiscal
-              </h3>
+              <h3 className="feed-management-e-commerce">Asesoría Fiscal</h3>
               <div className="ohio-gate-c-a">
                 <div className="create-customizable-illustrati-container">
                   <p className="create-customizable-illustrati">
-                  Planificación fiscal estratégica.
+                    Planificación fiscal estratégica.
                   </p>
                   <p className="designs-that-are">
-                  Asesoramiento sobre optimización fiscal.
+                    Asesoramiento sobre optimización fiscal.
                   </p>
                 </div>
               </div>
@@ -76,10 +78,10 @@ const SectionService = () => {
               <div className="logo-frame">
                 <div className="make-the-appearance-container">
                   <p className="make-the-appearance">
-                  Revisión de procedimientos y controles internos.
+                    Revisión de procedimientos y controles internos.
                   </p>
                   <p className="has-quality-and">
-                  Cumplimiento normativo y evaluación de riesgos.
+                    Cumplimiento normativo y evaluación de riesgos.
                   </p>
                 </div>
               </div>
@@ -98,10 +100,10 @@ const SectionService = () => {
               <h3 className="influencer-marketing">Servicios Tecnológicos</h3>
               <div className="create-customizable-illustrati-container1">
                 <p className="create-customizable-illustrati1">
-                Implementación de sistemas contables y software financiero.
+                  Implementación de sistemas contables y software financiero.
                 </p>
                 <p className="designs-that-are1">
-                Automatización de procesos contables.
+                  Automatización de procesos contables.
                 </p>
               </div>
             </div>

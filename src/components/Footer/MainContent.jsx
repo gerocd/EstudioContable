@@ -3,17 +3,15 @@ import React from "react";
 
 const MainContent = () => {
   const redirectToInstagram = () => {
-    window.location.href = 'https://www.instagram.com';
+    window.location.href = "https://www.instagram.com";
   };
 
   const redirectToTwitter = () => {
-    // Coloca la URL de tu cuenta de Twitter
-    window.location.href = 'https://www.twitter.com/';
+    window.location.href = "https://www.twitter.com/";
   };
 
   const redirectToFacebook = () => {
-    // Coloca la URL de tu página de Facebook
-    window.location.href = 'https://www.facebook.com/';
+    window.location.href = "https://www.facebook.com/";
   };
   return (
     <section className="main-content" id="contacto">
@@ -25,9 +23,7 @@ const MainContent = () => {
               <div className="bg2" />
               <b className="m3">M</b>
             </button>
-            <div className="minima-is-a">
-              Mundo Finanzas
-            </div>
+            <div className="minima-is-a">Mundo Finanzas</div>
           </div>
         </div>
         <div className="get-in-touch-frame">
@@ -49,31 +45,31 @@ const MainContent = () => {
         <div className="social-media-frame">
           <b className="social-media3">Redes Sociales</b>
           <div className="social-media-links">
-        <img
-          className="instagram-icon"
-          loading="eager"
-          alt=""
-          src="/instagram.svg"
-          onClick={redirectToInstagram}
-          style={{ cursor: 'pointer' }}
-        />
-        <img
-          className="twitter-icon"
-          loading="eager"
-          alt=""
-          src="/twitter.svg"
-          onClick={redirectToTwitter}
-          style={{ cursor: 'pointer' }}
-        />
-        <img
-          className="facebook-icon"
-          loading="eager"
-          alt=""
-          src="/facebook.svg"
-          onClick={redirectToFacebook}
-          style={{ cursor: 'pointer' }}
-        />
-      </div>
+            <img
+              className="instagram-icon"
+              loading="eager"
+              alt=""
+              src="/instagram.svg"
+              onClick={redirectToInstagram}
+              style={{ cursor: "pointer" }}
+            />
+            <img
+              className="twitter-icon"
+              loading="eager"
+              alt=""
+              src="/twitter.svg"
+              onClick={redirectToTwitter}
+              style={{ cursor: "pointer" }}
+            />
+            <img
+              className="facebook-icon"
+              loading="eager"
+              alt=""
+              src="/facebook.svg"
+              onClick={redirectToFacebook}
+              style={{ cursor: "pointer" }}
+            />
+          </div>
         </div>
         <div className="newsletter-frame">
           <b className="join-a-newsletter">Suscríbete</b>

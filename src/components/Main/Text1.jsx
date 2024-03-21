@@ -14,7 +14,11 @@ const Text1 = () => {
               </span>
             </h1>
             <div className="we-have-made">
-            En Mundo Finanzas, nos enorgullece ofrecer soluciones especializadas en el ámbito financiero y contable. Con una vasta experiencia y un equipo de profesionales altamente calificados, nos destacamos como una firma dedicada a brindar servicios de calidad a nuestros clientes
+              En Mundo Finanzas, nos enorgullece ofrecer soluciones
+              especializadas en el ámbito financiero y contable. Con una vasta
+              experiencia y un equipo de profesionales altamente calificados,
+              nos destacamos como una firma dedicada a brindar servicios de
+              calidad a nuestros clientes
             </div>
           </div>
           <div className="phone">
