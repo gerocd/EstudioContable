@@ -1,7 +1,7 @@
-import "./MainContent.css";
+import "./Footer.css";
 import React from "react";
 
-const MainContent = () => {
+const Footer = () => {
   const redirectToInstagram = () => {
     window.location.href = "https://www.instagram.com";
   };
@@ -94,4 +94,4 @@ const MainContent = () => {
   );
 };
 
-export default MainContent;
+export default Footer;

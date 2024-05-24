@@ -6,15 +6,14 @@ import FrameChildren from "../components/TrabajosExitosos/FrameChildren";
 import OurAwesomeTeam from "../components/Cards/OurAwesomeTeam";
 import YourEmailInput from "../components/Opiniones/YourEmailInput";
 import ContactUs from "../components/EnviarReseña/ContactUs";
-import MainContent from "../components/Footer/MainContent";
+import Footer from "../components/Footer/Footer";
 import "./MFinanzas.css";
 
 const MFinanzas = () => {
   return (
     <>
       <Navbar />
-      <section className="footer-frame">
-        <div className="f-r-a-m-e" />
+      <section className="main-frame">
         <div className="ohio-st-south-gate-c-a" />
         <Text1 />
         <div className="backgorund" />
@@ -29,7 +28,7 @@ const MFinanzas = () => {
           <ContactUs />
         </div>
       </section>
-      <MainContent />
+      <Footer />
     </>
   );
 };

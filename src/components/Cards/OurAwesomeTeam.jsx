@@ -10,35 +10,19 @@ const OurAwesomeTeam = () => {
       </div>
       <div className="card-team-01-parent">
         <CardTeam1
-          imagePlaceholder="/imageplaceholder@2x.png"
-          shooTharMien="Shoo Thar Mien"
-          seniorUXDesigner="Senior UX Designer"
+          TeamMemberImage={"/imageplaceholder@2x.png"}
+          TeamMemberTittle={"Shoo Thar Mien"}
+          TeamMemberName={"Shoo Thar Mien"}
+          TeamMemberRole={"Senior UX Designer"}
         />
-        <CardTeam1
-          imagePlaceholder="/imageplaceholder-1@2x.png"
-          shooTharMien="Shoo Prat Mhan"
-          seniorUXDesigner="Senior IxD"
+          <CardTeam1
+          TeamMemberImage={"/imageplaceholder@2x.png"}
+          TeamMemberTittle={"Shoo Thar Mien"}
+          TeamMemberName={"Shoo Thar Mien"}
+          TeamMemberRole={"Senior UX Designer"}
         />
-        <CardTeam
-          imagePlaceholder="/imageplaceholder-2@2x.png"
-          shooYhanTho="Shoo Yhan Tho"
-          creativeDirector="Creative Director"
-        />
-        <CardTeam1
-          imagePlaceholder="/imageplaceholder-3@2x.png"
-          shooTharMien="Shoo Bro Tho"
-          seniorUXDesigner="Motion Designer"
-        />
-        <CardTeam1
-          imagePlaceholder="/imageplaceholder-4@2x.png"
-          shooTharMien="Shoo Mhar No"
-          seniorUXDesigner="Illustrator"
-        />
-        <CardTeam
-          imagePlaceholder="/image-placeholder@2x.png"
-          shooYhanTho="Shoo Mhan Tho"
-          creativeDirector="Senior UX Researcher"
-        />
+
+
       </div>
     </div>
   );

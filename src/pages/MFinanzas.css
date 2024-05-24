@@ -22,7 +22,7 @@
   background-color: rgba(18, 18, 18, 0);
   z-index: 3;
 }
-.footer-frame {
+.main-frame {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -66,18 +66,18 @@
 }
 
 @media screen and (max-width: 1050px) {
-  .footer-frame {
+  .main-frame {
     padding-bottom: 27px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 750px) {
-  .footer-frame {
+  .main-frame {
     gap: 44px;
   }
 }
 @media screen and (max-width: 450px) {
-  .footer-frame {
+  .main-frame {
     padding-bottom: 20px;
     box-sizing: border-box;
   }
