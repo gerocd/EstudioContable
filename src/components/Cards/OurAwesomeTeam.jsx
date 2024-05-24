@@ -16,23 +16,28 @@ const OurAwesomeTeam = () => {
         />
           <CardTeam1
           TeamMemberImage={"/mariano.jpeg"}
-          TeamMemberName={"Daruich Mariano"}
+          TeamMemberName={"Mariano Daruich"}
           TeamMemberRole={"Contador"}
         />
          <CardTeam1
-          TeamMemberImage={"/aliende.jpeg"}
-          TeamMemberName={"Leandro Marcelo Aliende"}
-          TeamMemberRole={"Secretario"}
+          TeamMemberImage={"/tomas.jpeg"}
+          TeamMemberName={"Tomas Vegas"}
+          TeamMemberRole={"Administrativo"}
         />
            <CardTeam1
           TeamMemberImage={"/geronimo.png"}
-          TeamMemberName={"Cordoba Geronimo"}
+          TeamMemberName={"Geronimo Cordoba"}
           TeamMemberRole={"Developer"}
         />
         <CardTeam1
           TeamMemberImage={"/osvaldo.jpeg"}
           TeamMemberName={"Osvaldo Muruaga"}
           TeamMemberRole={"Ing. Informatico"}
+        />
+        <CardTeam1
+          TeamMemberImage={"/valentina.jpeg"}
+          TeamMemberName={"Valentina Torres"}
+          TeamMemberRole={"Administrativa"}
         />
       </div>
     </div>
