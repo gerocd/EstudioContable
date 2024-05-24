@@ -1,6 +1,6 @@
-import "./Text1.css";
+import "./Main.css";
 
-const Text1 = () => {
+const Main = () => {
   return (
     <div className="text" id="home">
       <div className="rectangle">
@@ -71,4 +71,4 @@ const Text1 = () => {
   );
 };
 
-export default Text1;
+export default Main;

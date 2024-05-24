@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar/Navbar";
-import Text1 from "../components/Main/Text1";
+import Main from "../components/Main/Main";
 import SectionAbout from "../components/SobreNosotros/SectionAbout";
 import SectionService from "../components/ServiciosOfrecemos/SectionService";
 import FrameChildren from "../components/TrabajosExitosos/FrameChildren";
@@ -14,9 +14,7 @@ const MFinanzas = () => {
     <>
       <Navbar />
       <section className="main-frame">
-        <div className="ohio-st-south-gate-c-a" />
-        <Text1 />
-        <div className="backgorund" />
+        <Main />
       </section>
       <SectionAbout />
       <SectionService />
