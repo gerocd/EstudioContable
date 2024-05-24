@@ -33,6 +33,10 @@
   gap: 26px;
   max-width: 100%;
 }
+
+.span-class-text{
+  font-size: 50px;
+}
 .get-started {
   position: relative;
   font-size: 14px;
@@ -84,48 +88,7 @@
   justify-content: flex-start;
   gap: 11px;
 }
-.google-logo-icon {
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  object-fit: contain;
-  position: absolute;
-  left: 20px;
-  top: -4px;
-  transform: scale(1.32);
-}
-.wrapper-google-logo {
-  height: 71px;
-  width: 125px;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.microsoft-logo-icon {
-  align-self: stretch;
-  width: 100%;
-  max-height: 100%;
-  min-height: 72px;
-  z-index: 1;
-  object-fit: contain;
-  position: absolute;
-  left: 0px;
-  top: -14px;
-  height: 100%;
-  transform: scale(1.63);
-}
-.wrapper-microsoft-logo {
-  align-self: stretch;
-  width: 127px;
-  position: relative;
-  min-height: 72px;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .bg1 {
   height: 72.8px;
   width: 129px;
@@ -135,27 +98,7 @@
   box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.1);
   display: none;
 }
-.oyo-logo-icon {
-  height: 24.3px;
-  width: 63.7px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  z-index: 1;
-}
-.oyo-logo {
-  cursor: pointer;
-  border: none;
-  padding: 25px 32px 23px 33px;
-  background-color: #fff;
-  border-radius: 16px;
-  box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.1);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-}
+
 .text1 {
   display: flex;
   flex-direction: row;

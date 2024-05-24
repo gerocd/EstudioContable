@@ -1,18 +1,3 @@
-.background-icon {
-  width: 1440px;
-  position: relative;
-  max-height: 100%;
-  display: none;
-  max-width: 100%;
-}
-.bg2 {
-  height: 56px;
-  width: 56px;
-  position: relative;
-  border-radius: 200px;
-  background-color: #fff;
-  display: none;
-}
 .m3 {
   position: relative;
   font-size: 24px;
@@ -23,6 +8,7 @@
   text-align: left;
   z-index: 1;
 }
+
 .logo1 {
   cursor: pointer;
   border: none;
@@ -38,6 +24,7 @@
 .logo1:hover {
   background-color: #e6e6e6;
 }
+
 .minima-is-a {
   align-self: stretch;
   height: 101px;
@@ -46,6 +33,7 @@
   display: inline-block;
   z-index: 1;
 }
+
 .text-description {
   align-self: stretch;
   display: flex;
@@ -54,6 +42,7 @@
   justify-content: flex-start;
   gap: 18px;
 }
+
 .l-o-g-o {
   width: 233px;
   display: flex;
@@ -64,12 +53,14 @@
   box-sizing: border-box;
   color: #e3e3e3;
 }
+
 .get-in-touch3 {
   position: relative;
   line-height: 22.4px;
   color: #fff;
   z-index: 1;
 }
+
 .mail-icon {
   height: 24px;
   width: 24px;
@@ -78,12 +69,14 @@
   flex-shrink: 0;
   z-index: 1;
 }
+
 .yourmailhellocom1 {
   position: relative;
   line-height: 32px;
   white-space: nowrap;
   z-index: 1;
 }
+
 .mail-frame1 {
   display: flex;
   flex-direction: row;
@@ -91,6 +84,7 @@
   justify-content: flex-start;
   gap: 16px;
 }
+
 .phone-icon1 {
   height: 24px;
   width: 24px;
@@ -99,12 +93,14 @@
   flex-shrink: 0;
   z-index: 1;
 }
+
 .div {
   position: relative;
   line-height: 32px;
   white-space: nowrap;
   z-index: 1;
 }
+
 .mail-frame2 {
   display: flex;
   flex-direction: row;
@@ -112,6 +108,7 @@
   justify-content: flex-start;
   gap: 16px;
 }
+
 .get-in-touch-frame {
   display: flex;
   flex-direction: column;
@@ -121,35 +118,23 @@
   gap: 22px;
   color: #828282;
 }
+
 .social-media3 {
   position: relative;
   line-height: 22.4px;
   z-index: 1;
 }
-.instagram-icon {
+
+.instagram-icon, .twitter-icon, .facebook-icon {
   height: 24px;
   width: 24px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
   z-index: 1;
+  cursor: pointer;
 }
-.twitter-icon {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  z-index: 1;
-}
-.facebook-icon {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  z-index: 1;
-}
+
 .social-media-links {
   align-self: stretch;
   height: 25px;
@@ -159,6 +144,7 @@
   justify-content: space-between;
   gap: 20px;
 }
+
 .social-media-frame {
   width: 124px;
   display: flex;
@@ -167,45 +153,20 @@
   justify-content: flex-start;
   gap: 19px;
 }
-.join-a-newsletter {
+
+.b-info {
   position: relative;
   line-height: 22.4px;
   z-index: 1;
 }
-.your-email4 {
+
+.your-info-four {
   position: relative;
   line-height: 25.2px;
   z-index: 1;
 }
-.enter-your-email1 {
-  width: 100%;
-  border: none;
-  outline: none;
-  font-family: "Plus Jakarta Sans";
-  font-size: 14px;
-  background-color: transparent;
-  height: 20px;
-  flex: 1;
-  position: relative;
-  line-height: 19.6px;
-  color: #ccc;
-  text-align: left;
-  display: inline-block;
-  min-width: 160px;
-}
-.form6 {
-  align-self: stretch;
-  border-radius: 8px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 14px 13px 13px 15px;
-  z-index: 1;
-}
-.your-email-label {
+
+.info-frame-three {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -214,32 +175,8 @@
   padding: 0px 1px 0px 0px;
   gap: 10px;
 }
-.subscribe {
-  position: relative;
-  font-size: 14px;
-  letter-spacing: 0.01em;
-  line-height: 24px;
-  font-family: "Plus Jakarta Sans";
-  color: #000;
-  text-align: left;
-}
-.button2 {
-  cursor: pointer;
-  border: none;
-  padding: 12px;
-  background-color: #fdec57;
-  align-self: stretch;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-}
-.button2:hover {
-  background-color: #e3d43d;
-}
-.email-input-frame {
+
+.info-frame-two {
   align-self: stretch;
   display: flex;
   flex-direction: column;
@@ -248,7 +185,8 @@
   gap: 17px;
   color: #808080;
 }
-.newsletter-frame {
+
+.info-frame {
   width: 297px;
   display: flex;
   flex-direction: column;
@@ -256,6 +194,7 @@
   justify-content: flex-start;
   gap: 13px;
 }
+
 .footer6 {
   flex: 1;
   background-color: #000;
@@ -269,6 +208,7 @@
   max-width: 100%;
   z-index: 3;
 }
+
 .main-content {
   align-self: stretch;
   display: flex;
@@ -284,18 +224,6 @@
   font-family: "Plus Jakarta Sans";
 }
 
-@media screen and (max-width: 1200px) {
-  .footer6 {
-    flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 750px) {
-  .footer6 {
-    padding-left: 52px;
-    padding-right: 51px;
-    box-sizing: border-box;
-  }
-}
 @media screen and (max-width: 450px) {
   .m3 {
     font-size: 19px;

@@ -13,14 +13,13 @@ const Footer = () => {
   const redirectToFacebook = () => {
     window.location.href = "https://www.facebook.com/";
   };
+
   return (
-    <section className="main-content" id="contacto">
+    <section className="main-content" >
       <div className="footer6">
-        <img className="background-icon" alt="" src="/background.svg" />
         <div className="l-o-g-o">
           <div className="text-description">
             <button className="logo1">
-              <div className="bg2" />
               <b className="m3">M</b>
             </button>
             <div className="minima-is-a">Mundo Finanzas</div>
@@ -33,12 +32,7 @@ const Footer = () => {
             <div className="yourmailhellocom1">marianodaruich0@gmail.com</div>
           </div>
           <div className="mail-frame2">
-            <img
-              className="phone-icon1"
-              loading="eager"
-              alt=""
-              src="/phone.svg"
-            />
+            <img className="phone-icon1" loading="eager" alt="" src="/phone.svg" />
             <div className="div">+54 9 381 440-6726</div>
           </div>
         </div>
@@ -51,7 +45,6 @@ const Footer = () => {
               alt=""
               src="/instagram.svg"
               onClick={redirectToInstagram}
-              style={{ cursor: "pointer" }}
             />
             <img
               className="twitter-icon"
@@ -59,7 +52,6 @@ const Footer = () => {
               alt=""
               src="/twitter.svg"
               onClick={redirectToTwitter}
-              style={{ cursor: "pointer" }}
             />
             <img
               className="facebook-icon"
@@ -67,26 +59,17 @@ const Footer = () => {
               alt=""
               src="/facebook.svg"
               onClick={redirectToFacebook}
-              style={{ cursor: "pointer" }}
             />
           </div>
         </div>
-        <div className="newsletter-frame">
-          <b className="join-a-newsletter">Suscríbete</b>
-          <div className="email-input-frame">
-            <div className="your-email-label">
-              <div className="your-email4">Email</div>
-              <div className="form6">
-                <input
-                  className="enter-your-email1"
-                  placeholder="Ingrese su email"
-                  type="text"
-                />
-              </div>
+        <div className="info-frame">
+          <b className="b-info">Info</b>
+          <div className="info-frame-two">
+            <div className="info-frame-three">
+              <div className="your-info-four">
+                Este estudio contable se encuentra en Argentina en la localidad de San Miguel de Tucuman, Tucuman. 4000
+              </div>          
             </div>
-            <button className="button2">
-              <b className="subscribe">Subscribirse</b>
-            </button>
           </div>
         </div>
       </div>

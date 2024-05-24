@@ -4,8 +4,8 @@ import SectionAbout from "../components/SobreNosotros/SectionAbout";
 import SectionService from "../components/ServiciosOfrecemos/SectionService";
 import TrabajosExitosos from "../components/TrabajosExitosos/TrabajosExitosos";
 import OurAwesomeTeam from "../components/Cards/OurAwesomeTeam";
-import YourEmailInput from "../components/Opiniones/YourEmailInput";
-import ContactUs from "../components/EnviarReseña/ContactUs";
+import Opiniones from "../components/Opiniones/Opiniones";
+import ContactUs from "../components/Contacto/ContactUs";
 import Footer from "../components/Footer/Footer";
 import "./MFinanzas.css";
 
@@ -20,7 +20,7 @@ const MFinanzas = () => {
       <SectionService />
       <TrabajosExitosos />
       <OurAwesomeTeam />
-      <YourEmailInput />
+      <Opiniones />
       <ContactUs />
       <Footer />
     </>
