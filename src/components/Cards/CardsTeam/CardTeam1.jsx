@@ -1,16 +1,15 @@
 import "./CardTeam1.css";
 
-const CardTeam1 = ({ TeamMemberImage, TeamMemberTittle, TeamMemberName, TeamMemberRole }) => {
+const CardTeam1 = ({ TeamMemberImage, TeamMemberName, TeamMemberRole }) => {
   return (
     <div className="card-team-01">
       <img
         className="image-placeholder-icon"
         loading="eager" 
-        alt={`Imagen de ${TeamMemberName}`}
+        alt=""
         src={ TeamMemberImage}
       />
       <div className="frame-container">
-        <div className="hi-my-name">{TeamMemberTittle}</div>
         <h3 className="team-member-name">{TeamMemberName}</h3>
         <div className="team-member-role">{TeamMemberRole}</div>
       </div>

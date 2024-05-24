@@ -38,7 +38,7 @@
   font-size: 14px;
   line-height: 19.6px;
   font-family: "Plus Jakarta Sans";
-  color: #0b0a0a;
+  color: #000000;
   text-align: left;
 }
 .button {
@@ -172,7 +172,7 @@
   max-width: 100%;
   font-size: 16px;
 }
-.footer {
+.main {
   height: 570px;
   flex: 1;
   display: flex;
@@ -268,7 +268,7 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .footer {
+  .main {
     gap: 47px;
     min-width: 100%;
   }

@@ -1,5 +1,5 @@
 import CardTeam1 from "./CardsTeam/CardTeam1";
-import CardTeam from "./CardsTeam/CardTeam"
+
 import "./OurAwesomeTeam.css";
 
 const OurAwesomeTeam = () => {
@@ -9,20 +9,31 @@ const OurAwesomeTeam = () => {
         <h1 className="our-awesome-team1">Equipo de trabajo</h1>
       </div>
       <div className="card-team-01-parent">
-        <CardTeam1
-          TeamMemberImage={"/imageplaceholder@2x.png"}
-          TeamMemberTittle={"Shoo Thar Mien"}
-          TeamMemberName={"Shoo Thar Mien"}
-          TeamMemberRole={"Senior UX Designer"}
+         <CardTeam1
+          TeamMemberImage={"/lorena.jpeg"}
+          TeamMemberName={"Lorena Jerez"}
+          TeamMemberRole={"Contadora/Dueña"}
         />
           <CardTeam1
-          TeamMemberImage={"/imageplaceholder@2x.png"}
-          TeamMemberTittle={"Shoo Thar Mien"}
-          TeamMemberName={"Shoo Thar Mien"}
-          TeamMemberRole={"Senior UX Designer"}
+          TeamMemberImage={"/mariano.jpeg"}
+          TeamMemberName={"Daruich Mariano"}
+          TeamMemberRole={"Contador"}
         />
-
-
+         <CardTeam1
+          TeamMemberImage={"/aliende.jpeg"}
+          TeamMemberName={"Leandro Marcelo Aliende"}
+          TeamMemberRole={"Secretario"}
+        />
+           <CardTeam1
+          TeamMemberImage={"/geronimo.png"}
+          TeamMemberName={"Cordoba Geronimo"}
+          TeamMemberRole={"Developer"}
+        />
+        <CardTeam1
+          TeamMemberImage={"/osvaldo.jpeg"}
+          TeamMemberName={"Osvaldo Muruaga"}
+          TeamMemberRole={"Ing. Informatico"}
+        />
       </div>
     </div>
   );

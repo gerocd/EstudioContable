@@ -17,11 +17,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <img
-        className="reachcircle-logo-website-heade-icon"
-        alt=""
-        src="/reachcirclelogowebsiteheader-1@2x.png"
-      />
       <div className="state-active-parent">
         <div className="state-active">
           <div className="frame" />

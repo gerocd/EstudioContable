@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Main from "../components/Main/Main";
 import SectionAbout from "../components/SobreNosotros/SectionAbout";
 import SectionService from "../components/ServiciosOfrecemos/SectionService";
-import FrameChildren from "../components/TrabajosExitosos/FrameChildren";
+import TrabajosExitosos from "../components/TrabajosExitosos/TrabajosExitosos";
 import OurAwesomeTeam from "../components/Cards/OurAwesomeTeam";
 import YourEmailInput from "../components/Opiniones/YourEmailInput";
 import ContactUs from "../components/EnviarReseña/ContactUs";
@@ -18,14 +18,10 @@ const MFinanzas = () => {
       </section>
       <SectionAbout />
       <SectionService />
-      <FrameChildren />
-      <section className="social-media-icons">
-        <div className="mail-your-email-address-and-ph">
-          <OurAwesomeTeam />
-          <YourEmailInput />
-          <ContactUs />
-        </div>
-      </section>
+      <TrabajosExitosos />
+      <OurAwesomeTeam />
+      <YourEmailInput />
+      <ContactUs />
       <Footer />
     </>
   );
